@@ -3,12 +3,9 @@
 int main()
 {
 	int a,b,c,d,e;
-	float sum,per;
-	a=10,
-	b=20,
-	c=40,
-	d=40,
-	e=50,
+float sum,per;
+printf("\n Enter your marks");
+scanf(%d %d %d %d %d,&a &b &c &d &e);
 	sum=a+b+c+d+e;
 	printf("%f",sum);
 	per=(sum/500)*100;
