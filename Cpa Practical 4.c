@@ -3,11 +3,7 @@ void main ()
 {
 	int a,b,c,d,e;
 	float sum,percentage; 
-	a=70,
-	b=60,
-	c=60,
-	d=67,
-	e=70,
+	scanf (%d %d %d %d %d , &a &b &c &d &e);
 	sum= a+b+c+d+e;
 	printf ("\n%d,sum");
 	percentage= (sum/500) * 100;
